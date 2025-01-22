@@ -1,32 +1,26 @@
 {
-    "version": 1,
-    "sources": [
+    "Manifests": [
         {
-            "packageIdentifier": "Ditto",
-            "versions": [
-                {
-                    "version": "3.24.246.0",
-                    "path": "s/ScottBrogden/Ditto/3.24.246.0/ScottBrogden.Ditto.installer.yaml"
-                }
-            ]
-        },
-        {
-            "packageIdentifier": "Ditto",
-            "versions": [
-                {
-                    "version": "3.24.246.0",
-                    "path": "s/ScottBrogden/Ditto/3.24.246.0/ScottBrogden.Ditto.locale.en-US.yaml"
-                }
-            ]
-        },
-        {
-            "packageIdentifier": "Ditto",
-            "versions": [
-                {
-                    "version": "3.24.246.0",
-                    "path": "s/ScottBrogden/Ditto/3.24.246.0/ScottBrogden.Ditto.yaml"
-                }
-            ]
+            "PackageIdentifier": "ScottBrogden.Ditto",
+            "PackageVersion": "3.24.246.0",
+            "ManifestType": "version",
+            "ManifestVersion": "1.0.0",
+            "Locale": {
+                "Language": "en-US",
+                "LocaleFile": "manifests/s/ScottBrogden/Ditto/3.24.246.0/ScottBrogden.Ditto.locale.en-US.json"
+            },
+            "Installer": {
+                "Architecture": "x64",
+                "InstallerType": "exe",
+                "InstallerUrl": "https://example.com/DittoSetup_3_24_246_0.exe",
+                "InstallerSha256": "abc1234567890abcdef1234567890abcdef1234567890abcdef1234567890ab"
+            },
+            "DefaultLocale": {
+                "Language": "en-US",
+                "Publisher": "Scott Brogden",
+                "PackageName": "Ditto",
+                "ShortDescription": "A clipboard manager for Windows."
+            }
         }
     ]
 }
