@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "sources": [
+        {
+            "packageIdentifier": "Ditto",
+            "versions": [
+                {
+                    "version": "3.24.246.0",
+                    "path": "s/ScottBrogden/Ditto/3.24.246.0/ScottBrogden.Ditto.installer.yaml"
+                }
+            ]
+        },
+        {
+            "packageIdentifier": "Ditto",
+            "versions": [
+                {
+                    "version": "3.24.246.0",
+                    "path": "s/ScottBrogden/Ditto/3.24.246.0/ScottBrogden.Ditto.locale.en-US.yaml"
+                }
+            ]
+        },
+        {
+            "packageIdentifier": "Ditto",
+            "versions": [
+                {
+                    "version": "3.24.246.0",
+                    "path": "s/ScottBrogden/Ditto/3.24.246.0/ScottBrogden.Ditto.yaml"
+                }
+            ]
+        }
+    ]
+}
